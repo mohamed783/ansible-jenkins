@@ -7,7 +7,6 @@ node{
           colorized: true,          
           playbook: 'playbook.yml',
           inventory: 'hosts.yml',
-          extras: '--extra-vars "ip=${ip}"'
       )
     }
 }
