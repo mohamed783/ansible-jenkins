@@ -1,6 +1,6 @@
 
 - name: install nginx
-  hosts: 192.168.31.130
+  hosts: all
   roles:
     - nginx
 
